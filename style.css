@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+
+#main-div {
+  display: flex;
+  height: 100%;
+}
+
+#lijevi {
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  flex-direction: column;
+}
+
+#gornji-lijevi {
+  width: 100%;
+  height: 50%;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#donji-lijevi {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desni {
+  flex-grow: 1;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start; 
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.tekst-restoran {
+  font-weight: 900;
+  font-size: large;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.donji-tekst {
+  font-size: xx-large;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-align: center;
+}
+
+.menuButton {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px; 
+  font-family: sans-serif;
+  font-weight: bold;
+} 
+
+button:hover{
+    background-color: bisque; 
+    cursor: pointer;
+}
